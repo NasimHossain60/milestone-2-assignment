@@ -1,6 +1,5 @@
 /* Font Use */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -106,4 +105,31 @@ article {
 
 .blog-image img {
   width: 100%;
+}
+.blog > p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #161616;
+  margin: 20px 0px 15px 20px;
+  border: 1px solid #161616;
+  display: inline-block;
+  padding: 5px 17px;
+  border-radius: 7px;
+}
+.blog h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #161616;
+  padding: 5px;
+}
+.detail {
+  display: flex;
+  gap: 30px;
+}
+.detail p {
+  color: rgba(22, 22, 22, 0.7);
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
 }
