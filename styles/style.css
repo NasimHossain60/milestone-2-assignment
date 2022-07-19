@@ -16,6 +16,7 @@ body {
   background-color: #161616;
   border-radius: 30px;
   margin-top: 50px;
+  margin-bottom: 130px;
 }
 .half-width {
   padding: 111px 2px 111px 106px;
@@ -49,5 +50,60 @@ body {
   color: #ffffff;
 }
 .banner-width img {
+  width: 100%;
+}
+
+/* Banner part end  */
+
+/* main part */
+
+/* blog and article design herte */
+.title-bar {
+  width: 312px;
+  height: 312px;
+  background-color: #161616;
+  padding: 30px;
+  border-radius: 10px;
+}
+.title-list {
+  text-align: center;
+  width: 252px;
+  height: 64px;
+  padding: 23px;
+}
+.title-list a {
+  color: #161616;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 30px 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+#a {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+#b {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+#c {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  column-gap: 24px;
+}
+article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  row-gap: 24px;
+}
+
+.blog-image img {
   width: 100%;
 }
