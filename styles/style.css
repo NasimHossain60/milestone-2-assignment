@@ -1,0 +1,53 @@
+/* Font Use */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  padding: 0 5%;
+}
+.banner-width {
+  display: flex;
+  align-items: center;
+  background-color: #161616;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.half-width {
+  padding: 111px 2px 111px 106px;
+}
+.banner-image {
+  padding: 33px 80px 0px 2px;
+}
+.half-width h1 {
+  font-weight: 700;
+  font-size: 70px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.half-width p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.button {
+  margin-top: 30px;
+  background-color: #dd0000;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 16px 20px;
+  cursor: pointer;
+}
+.button a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+.banner-width img {
+  width: 100%;
+}
