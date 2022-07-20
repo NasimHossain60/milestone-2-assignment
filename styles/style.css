@@ -7,6 +7,9 @@
 }
 body {
   width: 100%;
+}
+header,
+main {
   padding: 0 5%;
 }
 .banner-width {
@@ -14,7 +17,7 @@ body {
   align-items: center;
   background-color: #161616;
   border-radius: 30px;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 130px;
 }
 .half-width {
@@ -89,7 +92,7 @@ body {
   margin-bottom: 30px;
 }
 #c {
-  background-color: #ffffff;
+  background-color: #dd0000;
   border-radius: 10px;
 }
 .container {
@@ -102,7 +105,9 @@ article {
   column-gap: 24px;
   row-gap: 24px;
 }
-
+.blog {
+  cursor: pointer;
+}
 .blog-image img {
   width: 100%;
 }
@@ -132,7 +137,31 @@ article {
   font-family: "Poppins";
   font-weight: 400;
   font-size: 16px;
+  padding-left: 5px;
+  padding-bottom: 2px;
 }
+/* ------------------
+-----View All Button Learge device hidden Only Medium Device Visible--
+--------------------- */
+.view-all {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.view-all a {
+  text-decoration: none;
+  background-color: #dd0000;
+  padding: 12px 29px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+}
+.view-all {
+  display: none;
+}
+
+/* Footer Style Here */
 footer {
   margin-top: 100px;
   background-color: #161616;
@@ -174,3 +203,39 @@ footer hr {
 .footer-social-icon a {
   color: white;
 }
+/* -----------------
+   Some Hovar Effec
+-------------------  */
+.button:hover {
+  border: 1px solid white;
+  padding: 15px 19px;
+}
+#a:hover {
+  box-shadow: 5px 5px 20px red;
+}
+#b:hover {
+  box-shadow: 5px 5px 20px red;
+}
+#c:hover {
+  box-shadow: 5px 5px 20px white;
+}
+.blog:hover {
+  box-shadow: 5px 5px 30px gray;
+}
+.view-all a:hover {
+  background-color: #ff0000;
+}
+footer h4 a:hover{
+  color: #dd0000;
+}
+.footer-flex a:hover{
+  color: #dd0000;
+}
+.footer-social-icon a:hover{
+  color: #dd0000;
+}
+/* Hover Done */
+
+/* ------------
+  Media Query
+ ------------ */
