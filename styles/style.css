@@ -1,5 +1,5 @@
 /* Font Use */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@400;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -132,4 +132,45 @@ article {
   font-family: "Poppins";
   font-weight: 400;
   font-size: 16px;
+}
+footer {
+  margin-top: 100px;
+  background-color: #161616;
+}
+footer h4 {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+footer h4 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer hr {
+  margin: 0 7%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #ffffff4f;
+}
+.footer-flex {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.footer-flex a {
+  text-decoration: none;
+  color: #b9b9b9;
+  font-weight: 500;
+  font-size: 16px;
+}
+.footer-social-icon {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.footer-social-icon a {
+  color: white;
 }
