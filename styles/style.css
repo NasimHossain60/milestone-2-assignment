@@ -203,6 +203,24 @@ footer hr {
 .footer-social-icon a {
   color: white;
 }
+
+/* Transitoin Effect*/
+.banner {
+  transition: all;
+  transition-duration: 2s;
+}
+.banner:hover {
+  box-shadow: 20px 20px 30px gray;
+  border-radius: 50px;
+}
+.half-width h1 {
+  transition: all;
+  transition-duration: 2s;
+}
+.banner:hover h1 {
+  color: #dd0000;
+}
+
 /* -----------------
    Some Hovar Effec
 -------------------  */
@@ -339,6 +357,9 @@ footer h4 a:hover {
   article {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+  }
+  .view-all {
+    display: flex;
   }
   .footer-flex {
     flex-wrap: wrap;
