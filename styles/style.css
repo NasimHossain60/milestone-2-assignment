@@ -274,7 +274,7 @@ footer h4 a:hover {
     padding: 0 20px;
   }
   .half-width h1 {
-    font-size: 22px;
+    font-size:32px;
   }
   .half-width p {
     font-size: 14px;
@@ -365,3 +365,4 @@ footer h4 a:hover {
     flex-wrap: wrap;
   }
 }
+/* Midium device Responsive Done */
