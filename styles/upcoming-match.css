@@ -1,0 +1,365 @@
+/* Font Use */
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+header,
+main {
+  padding: 0 5%;
+}
+.banner-width {
+  display: flex;
+  align-items: center;
+  background-color: #161616;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 130px;
+}
+.half-width {
+  padding: 111px 2px 111px 106px;
+}
+.banner-image {
+  padding: 33px 80px 0px 2px;
+}
+.half-width h1 {
+  font-weight: 700;
+  font-size: 70px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.half-width p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.button {
+  margin-top: 30px;
+  background-color: #dd0000;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 16px 20px;
+  cursor: pointer;
+}
+.button a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+.banner-width img {
+  width: 100%;
+}
+
+/* Banner part end  */
+
+/* main part */
+
+/* Match schedule start */
+.title-bar {
+  width: 312px;
+  height: 312px;
+  background-color: #161616;
+  padding: 30px;
+  border-radius: 10px;
+}
+.title-list {
+  text-align: center;
+  width: 252px;
+  height: 64px;
+  padding: 23px;
+}
+.title-list a {
+  color: #161616;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 30px 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+#a {
+  background-color: #dd0000;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+#b {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+#c {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  column-gap: 24px;
+}
+article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  row-gap: 24px;
+}
+.blog-box {
+  cursor: pointer;
+}
+.blog {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.blog-image img {
+  width: 100%;
+}
+.detail {
+  text-align: center;
+}
+.detail h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #161616;
+  padding: 5px;
+}
+
+.detail p {
+  color: rgba(22, 22, 22, 0.7);
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-bottom: 2px;
+}
+/* ------------------
+-----View All Button Learge device hidden Only Medium Device Visible--
+--------------------- */
+.view-all {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.view-all a {
+  text-decoration: none;
+  background-color: #dd0000;
+  padding: 12px 29px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+}
+.view-all {
+  display: none;
+}
+
+/* Footer Style Here */
+footer {
+  margin-top: 100px;
+  background-color: #161616;
+}
+footer h4 {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+footer h4 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer hr {
+  margin: 0 7%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #ffffff4f;
+}
+.footer-flex {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.footer-flex a {
+  text-decoration: none;
+  color: #b9b9b9;
+  font-weight: 500;
+  font-size: 16px;
+}
+.footer-social-icon {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.footer-social-icon a {
+  color: white;
+}
+
+/* Transitoin Effect*/
+.banner {
+  transition: all;
+  transition-duration: 2s;
+}
+.banner:hover {
+  box-shadow: 20px 20px 30px gray;
+  border-radius: 50px;
+}
+.half-width h1 {
+  transition: all;
+  transition-duration: 2s;
+}
+.banner:hover h1 {
+  color: #dd0000;
+}
+
+/* -----------------
+   Some Hovar Effec
+-------------------  */
+.button:hover {
+  border: 1px solid white;
+  padding: 15px 19px;
+}
+#a:hover {
+  box-shadow: 5px 5px 20px rgb(105, 104, 104);
+}
+#b:hover {
+  box-shadow: 5px 5px 20px red;
+}
+#c:hover {
+  box-shadow: 5px 5px 20px red;
+}
+.blog-box:hover {
+  box-shadow: 5px 5px 30px gray;
+  border-radius: 5px;
+}
+.view-all a:hover {
+  background-color: #ff0000;
+}
+footer h4 a:hover {
+  color: #dd0000;
+}
+.footer-flex a:hover {
+  color: #dd0000;
+}
+.footer-social-icon a:hover {
+  color: #dd0000;
+}
+/* Hover Done */
+
+/* ------------
+  Media Query
+ ------------ */
+
+/* For Small Devices */
+
+@media only screen and (max-width: 688px) {
+  /* header section */
+  .banner-width {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .half-width {
+    padding: 28px 38px 21px 38px;
+    text-align: center;
+  }
+  .banner-image {
+    padding: 0 20px;
+  }
+  .half-width h1 {
+    font-size: 22px;
+  }
+  .half-width p {
+    font-size: 14px;
+  }
+  .button {
+    padding: 10px 16px;
+  }
+  .button:hover {
+    padding: 9px 15px;
+  }
+  /* header part end */
+
+  /* main part start */
+
+  .container {
+    flex-direction: column;
+    align-content: center;
+  }
+  .title-bar {
+    background-color: #ffffff;
+    margin: 24px auto;
+  }
+  article {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  /* Footer Section Start */
+
+  .footer-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* For Medium Devices */
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  /* header part start */
+  .banner-width {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .half-width {
+    align-items: center;
+    padding: 30px 2px 30px 60px;
+  }
+  .banner-image {
+    width: 100%;
+    padding: 30px 60px 30px 3px;
+  }
+  .half-width h1 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .half-width p {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .button {
+    padding: 12px 20px;
+  }
+  .button:hover {
+    padding: 11px 19px;
+  }
+  /* header part end */
+
+  .container {
+    flex-direction: column;
+  }
+  .title-bar {
+    display: flex;
+    height: auto;
+    width: auto;
+    background-color: #ffffff;
+    gap: 22px;
+  }
+
+  article {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .view-all {
+    display: flex;
+  }
+  .footer-flex {
+    flex-wrap: wrap;
+  }
+}
