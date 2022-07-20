@@ -217,7 +217,7 @@ footer hr {
   box-shadow: 5px 5px 20px red;
 }
 #c:hover {
-  box-shadow: 5px 5px 20px white;
+  box-shadow: 5px 5px 20px rgb(105, 104, 104);
 }
 .blog:hover {
   box-shadow: 5px 5px 30px gray;
@@ -225,13 +225,13 @@ footer hr {
 .view-all a:hover {
   background-color: #ff0000;
 }
-footer h4 a:hover{
+footer h4 a:hover {
   color: #dd0000;
 }
-.footer-flex a:hover{
+.footer-flex a:hover {
   color: #dd0000;
 }
-.footer-social-icon a:hover{
+.footer-social-icon a:hover {
   color: #dd0000;
 }
 /* Hover Done */
@@ -239,3 +239,53 @@ footer h4 a:hover{
 /* ------------
   Media Query
  ------------ */
+
+/* For Small Devices */
+
+@media only screen and (max-width: 688px) {
+  .banner-width {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .half-width {
+    padding: 28px 38px 21px 38px;
+    text-align: center;
+  }
+  .banner-image {
+    padding: 0 20px;
+  }
+  .half-width h1 {
+    font-size: 22px;
+  }
+  .half-width p {
+    font-size: 14px;
+  }
+  .button {
+    padding: 10px 16px;
+  }
+  .button:hover {
+    padding: 9px 15px;
+  }
+  /* header part end */
+
+  /* main part start */
+
+  .container {
+    flex-direction: column;
+    align-content: center;
+  }
+  .title-bar {
+    background-color: #ffffff;
+    margin: 24px auto;
+  }
+  article {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  /* Footer Section Start */
+
+  .footer-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+}
