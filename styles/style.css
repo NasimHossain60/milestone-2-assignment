@@ -243,6 +243,7 @@ footer h4 a:hover {
 /* For Small Devices */
 
 @media only screen and (max-width: 688px) {
+  /* header section */
   .banner-width {
     flex-direction: column;
     margin-bottom: 0;
@@ -293,6 +294,7 @@ footer h4 a:hover {
 /* For Medium Devices */
 
 @media only screen and (min-width: 689px) and (max-width: 992px) {
+  /* header part start */
   .banner-width {
     flex-direction: row;
     align-items: center;
@@ -320,5 +322,25 @@ footer h4 a:hover {
   }
   .button:hover {
     padding: 11px 19px;
+  }
+  /* header part end */
+
+  .container {
+    flex-direction: column;
+  }
+  .title-bar {
+    display: flex;
+    height: auto;
+    width: auto;
+    background-color: #ffffff;
+    gap: 22px;
+  }
+
+  article {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .footer-flex {
+    flex-wrap: wrap;
   }
 }
