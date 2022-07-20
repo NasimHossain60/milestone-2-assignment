@@ -289,3 +289,36 @@ footer h4 a:hover {
     align-items: center;
   }
 }
+
+/* For Medium Devices */
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .banner-width {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .half-width {
+    align-items: center;
+    padding: 30px 2px 30px 60px;
+  }
+  .banner-image {
+    width: 100%;
+    padding: 30px 60px 30px 3px;
+  }
+  .half-width h1 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .half-width p {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .button {
+    padding: 12px 20px;
+  }
+  .button:hover {
+    padding: 11px 19px;
+  }
+}
